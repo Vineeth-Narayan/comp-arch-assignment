@@ -30,7 +30,7 @@ module encotest;
       
       a8=1'b1; a7=1'b1; a6=1'b1; a5=1'b1; a4=1'b0;
       a3=1'b0; a2=1'b0; a1=1'b1;
-      #5 $display("%b",o);     
+      #5 $display("%b",o);     // binary form
     end
 endmodule
 
